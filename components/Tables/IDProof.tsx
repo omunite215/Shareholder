@@ -31,7 +31,6 @@ const IDProof = () => {
               <TableHead>Sr No.</TableHead>
               <TableHead>Documents</TableHead>
               <TableHead>Download</TableHead>
-              <TableHead>Status</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -41,7 +40,6 @@ const IDProof = () => {
               <TableCell>
                 <LinkButton href="/documents/users/shareholder1/ID.pdf" />
               </TableCell>
-              <TableCell className="text-green-500">Submited</TableCell>
             </TableRow>
             <TableRow>
               <TableCell className="font-medium">2</TableCell>
@@ -49,7 +47,6 @@ const IDProof = () => {
               <TableCell>
                 <LinkButton href="/documents/users/shareholder1/ID.pdf" />
               </TableCell>
-              <TableCell className=" text-yellow-500">Pending</TableCell>
             </TableRow>
           </TableBody>
         </Table>
