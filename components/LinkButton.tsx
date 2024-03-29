@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
+import { Download } from "lucide-react";
 
 const LinkButton = ({ href }: { href: string }) => {
   return (
@@ -8,7 +9,7 @@ const LinkButton = ({ href }: { href: string }) => {
       target="_blank"
       className={buttonVariants({ variant: "secondary" })}
     >
-      Preview
+      <Download/>
     </Link>
   );
 };
