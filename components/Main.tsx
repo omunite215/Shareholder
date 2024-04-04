@@ -14,7 +14,6 @@ const Main = () => {
       <CardHeader className="flex flex-row justify-between items-center">
         <CardDescription>Tencent Games Pvt. Ltd / Shareholder</CardDescription>
         <CardTitle>Tony Zha Shang</CardTitle>
-        <CardDescription>Person</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
         <UploadFormTable />

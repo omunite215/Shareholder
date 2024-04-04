@@ -65,7 +65,7 @@ const UploadFormTable = () => {
                 <TableRow>
                   <TableHead>Sr No.</TableHead>
                   <TableHead>Documents</TableHead>
-                  <TableHead>Download</TableHead>
+                  <TableHead>Review your Documents</TableHead>
                   <TableHead>Status</TableHead>
                 </TableRow>
               </TableHeader>
