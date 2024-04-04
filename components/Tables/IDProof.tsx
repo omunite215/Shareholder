@@ -30,7 +30,7 @@ const IDProof = () => {
             <TableRow>
               <TableHead>Sr No.</TableHead>
               <TableHead>Documents</TableHead>
-              <TableHead>Download</TableHead>
+              <TableHead>Review your Documents</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -38,14 +38,14 @@ const IDProof = () => {
               <TableCell className="font-medium">1</TableCell>
               <TableCell>ID Proof</TableCell>
               <TableCell>
-                <LinkButton href="/documents/users/shareholder1/ID.pdf" />
+                <LinkButton href="/documents/users/shareholder1/ID.pdf" download={false} />
               </TableCell>
             </TableRow>
             <TableRow>
               <TableCell className="font-medium">2</TableCell>
               <TableCell>Address Proof</TableCell>
               <TableCell>
-                <LinkButton href="/documents/users/shareholder1/ID.pdf" />
+                <LinkButton href="/documents/users/shareholder1/ID.pdf" download={false} />
               </TableCell>
             </TableRow>
           </TableBody>
