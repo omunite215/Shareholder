@@ -40,7 +40,6 @@ const IDProof = () => {
               <TableCell>
                 <LinkButton
                   href="/documents/users/shareholder1/ID.pdf"
-                  download={false}
                 />
               </TableCell>
             </TableRow>
@@ -50,7 +49,6 @@ const IDProof = () => {
               <TableCell>
                 <LinkButton
                   href="/documents/users/shareholder1/ID.pdf"
-                  download={false}
                 />
               </TableCell>
             </TableRow>
