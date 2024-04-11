@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -28,6 +28,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import LinkButton from "../LinkButton";
+import Link from "next/link";
 
 const formSchema = z.object({
   sign: z.string().min(2, {
@@ -77,8 +78,14 @@ const UploadFormTable = () => {
                   <TableCell>
                     <LinkButton href="/documents/NNC1.pdf" />
                   </TableCell>
-                  <TableCell className="text-destructive">
-                    Send Signed Physical Copy to your Account User
+                  <TableCell>
+                    <Link
+                      href="/documents/NNC1.pdf"
+                      download
+                      className={buttonVariants({ variant: "link" })}
+                    >
+                      Download & Send Signed Physical Copy to your Account User
+                    </Link>
                   </TableCell>
                 </TableRow>
                 <TableRow>
